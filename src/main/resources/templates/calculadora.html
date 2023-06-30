@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
 </head>
 <body>
-$END$
+    <h3>Resultado: <a th:text="${resultado}"></a></h3>
+    <form action="add">
+        <input style="background-color: #ffdbfa" type="text" name="number" th:value='${valor}'><br><br>
+        <input style="background-color: #ffdbfa" type="submit" value="+" formaction="add">
+        <input style="background-color: #ffdbfa" type="submit" value="*" formaction="mult">
+        <input style="background-color: #ffdbfa" type="submit" value="-" formaction="rest">
+        <input style="background-color: #ffdbfa" type="submit" value="/" formaction="div">
+        <input style="background-color: #ffdbfa" type="submit" value="AC" formaction="ac">
+    </form>
 </body>
 </html>
