@@ -26,7 +26,7 @@ Por último se verificará el funcionamiento del boton AC:
 ## Diagrama de clase
 ![image](https://github.com/Luciernagas/tarea5_ARSW/assets/104604359/3a8e2a53-c02d-4ed5-867c-ba26249e5423)
 
-Se puede observar que se tienen 3 clases, la clase principal Calculadoramvc la cual posee el método main, el cual permite que la aplicación se ejecute, por otro lado se tiene la clase CalculadoraController que es la clase controlador la cual contiene un objeto de la clase ValorAnterior.
+Se puede observar que se tienen 3 clases, la clase principal Calculadoramvc la cual posee el método main, el cual permite que la aplicación se ejecute por otro lado se tiene la clase CalculadoraController que es la clase controlador la cual contiene un objeto de la clase ValorAnterior como se puede observar en su relación.
 
 ## Contribuidores
 ♡ Luisa Valentina De la hoz Rocha ♡
